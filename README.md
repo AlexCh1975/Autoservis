@@ -1,3 +1,25 @@
+# Описание Autoservis
+#### (Полностью реализован только блок по работе с сотрудниками)
+### Menu и интерфейс клиенты/сотрудники
+![](/images/menu_001.png)
+#### Добавление сотрудника
+![](/images/input_employee_sql_001.png)
+![](/images/input_employee_menu_001.png)
+![](/images/input_employee_sql_002.png)
+
+#### Поиск сотрудника по фамилии
+![](/images/serch_employee_by_lastname_001.png)
+![](/images/serch_employee_by_lastname_002.png)
+
+#### Получение списка группы сотрудников
+![](/images/serch_employeesGroup_by_speciality_001.png)
+![](/images/sorch_emploeesGroup_by_speciality_002.png)
+
+#### Запись списка всех сотрудников в файл
+###### (Сортирует по должности группами)
+![](/images/employees_to_file_001.png)
+###### (файл: employees.txt)
+```
 id= 16
 
 Сотрудник:
@@ -141,3 +163,15 @@ id= 15
 Должность= слесарь
 _______________________ 
 __________________________________________________________________________
+
+```
+
+#### Удоление сотрудника
+###### (Смотрим, что сотрудник есть)
+![](/images/delete_employee_001.png)
+###### (Удаляем)
+![](/images/delete_employee_002.png)
+###### (Проверяем)
+![](/images/delete_employee_003.png)
+
+
